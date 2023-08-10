@@ -22,4 +22,4 @@ LEVEL - Final Year Diploma Mini-Project
 
 <img src="https://drive.google.com/uc?export=view&id=1OSmWZtMguz7O2lMN2426MoJkSPMZz3g1" style="width: 100%; max-width: 100%; height: auto" />
 
-Refer Doc pdf file for more information and sample output.
+Refer [Doc pdf](https://github.com/AditiNarkar/Alberta-Health-Care-with-PHP-ThreeJS/blob/main/Doc.pdf) file for more information and sample output.
