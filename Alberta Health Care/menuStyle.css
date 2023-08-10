@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    background-color: white;
+    border-radius: 4px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -7px 9px 17px 0px rgb(128, 130, 255);
+
+    width: 0px;
+    overflow: hidden;
+    transform: translateX(50px);
+    opacity: 0;
+    transition: 0.5s ease;
+    padding: 5px;
+}
+
+li a{
+    display:inline-block;
+    padding: 10px 20px;
+    color: rgb(0, 132, 255);
+}
+li:hover a{
+    color: rgb(199, 8, 8);
+}
+
+nav{
+    position: absolute;
+    top: 10px;
+    right:100px;
+}
+nav.show ul{
+    width: 500px;
+    /* transform: translate(0px);  */
+    opacity: 1;
+    /* pointer-events: all; */
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -100px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url("images/menu_icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 17px 0px rgb(128, 130, 255);
+    /* transition: 0.5s ease; */
+}
+
+.icon.close {
+    background-image: url("images/cross.png");
+    background-size: 50%;
+}
+
+
+
+
+<nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Log In</a></li>
+            </ul>
+            <div id="menu" class="icon" onmouseover="document.getElementById('menu').style.backgroundColor='rgb(189, 245, 255)'" onmouseout="document.getElementById('menu').style.backgroundColor='white'"></div>
+        </nav>
