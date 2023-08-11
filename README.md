@@ -15,8 +15,11 @@ LEVEL - Final Year Diploma Mini-Project
 ## Installation
 - Copy the Project Folder in  ```C:\xampp\htdocs\```
 - Open Xampp control panel and start Apache and MySQL server.
+- Open phpmyadmin page in browser as:
+  > localhost:8080/phpmyadmin
+- Add new database as mentioned in [Doc pdf](https://github.com/AditiNarkar/Alberta-Health-Care-with-PHP-ThreeJS/blob/main/Doc.pdf) file.
 - Open Browser and open project file in search box as:
-> localhost:8080/< Project-file-name-in-htdoc>
+  > localhost:8080/< Project-file-name-in-htdoc>
 
 ## Sample home page with Hospital model:
 
